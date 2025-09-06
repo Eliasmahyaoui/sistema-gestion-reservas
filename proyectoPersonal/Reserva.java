@@ -16,12 +16,7 @@ public class Reserva {
 			this.hora = hora;
 
 		}
-
-
-
-
-
-
+	
 		public Usuario getUsuario() {
 			return usuario;
 		}
@@ -59,3 +54,4 @@ public class Reserva {
 			return "Reserva [usuario=" + usuario + ", pista=" + pista + ", fecha=" + fecha + ", hora=" + hora + "]";
 		}
 }
+
